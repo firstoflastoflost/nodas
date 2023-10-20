@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "psr-4": {"App\\": "src/"},
+    "files": [
+      "src/TsReturnOperation.php"
+    ]
+  },
+  "require": {
+    "nesbot/carbon": "*",
+    "phpunit/phpunit": "^9.5",
+    "symfony/string": "^5.4",
+    "tightenco/collect": "^8.83"
+  }
+}
